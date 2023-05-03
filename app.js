@@ -23,7 +23,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/eletro", function (req, res) {
-  res.send(" CADASTRO USUARIO");
+  res.sendFile(__dirname+"/src/eletro.html");
 });
 app.get("/celulares", function (req, res) {
   res.send(" Departamento celulares");
